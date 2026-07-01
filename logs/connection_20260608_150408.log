@@ -1,0 +1,14 @@
+15:04:08.284  INFO     logging connection events to c:\Users\taras\Desktop\tracking_with_ali\tracking_module_v1\logs\connection_20260608_150408.log
+15:04:08.284  INFO     [1/3] Scanning for nearby Movella DOT devices...
+15:04:09.234  INFO     advertisement found: D4:22:CD:00:74:31
+15:04:11.937  INFO     advertisement found: D4:22:CD:00:75:5B
+15:04:12.542  INFO     advertisement found: D4:22:CD:00:75:04
+15:04:27.666  INFO     scan: 3 device(s) detected so far
+15:04:29.237  INFO     [2/3] Connecting to 3 detected device(s)...
+15:04:43.334  INFO     connected:  D4:22:CD:00:74:31
+15:04:43.334  WARNING  FAILED:     D4:22:CD:00:75:5B (detected but not connected)
+15:04:43.334  WARNING  FAILED:     D4:22:CD:00:75:04 (detected but not connected)
+15:04:43.334  INFO     [3/3] Configuring 1 connected sensor(s)...
+15:04:43.515  INFO     streaming:  D4:22:CD:00:74:31 @ 30 Hz
+15:04:44.526  INFO     1 IMU(s) connected and streaming.
+16:41:52.186  INFO     SDK resources released. Connections closed.

@@ -1,0 +1,288 @@
+{
+  "phase": 1,
+  "run_dir": "./saved_models\\imu_ae_conv1d_vae_ld16_n674_2506_1654",
+  "model_type": "conv1d",
+  "latent_type": "vae",
+  "latent_dim": 16,
+  "hidden_dim": 16,
+  "epochs": 100,
+  "train_trials": 674,
+  "val_trials": 165,
+  "target_cols": [
+    "Shoulder_intrinsic_roll_vel_dps",
+    "Shoulder_intrinsic_pitch_vel_dps",
+    "Shoulder_intrinsic_yaw_vel_dps",
+    "Elbow_intrinsic_roll_vel_dps",
+    "Elbow_intrinsic_pitch_vel_dps",
+    "Elbow_intrinsic_yaw_vel_dps",
+    "Wrist_intrinsic_roll_vel_dps",
+    "Wrist_intrinsic_pitch_vel_dps",
+    "Wrist_intrinsic_yaw_vel_dps"
+  ],
+  "best_val_loss": 6.01888124292547,
+  "summary": {
+    "target_mean_skill": 0.3487725067071829,
+    "aux_mean_skill": 0.42883830493347647,
+    "target_mean_r2": 0.3487725067071829,
+    "target_mean_nrmse": 0.7913884697595441,
+    "target_mean_rmse": 63.93431495713791,
+    "n_target": 9,
+    "n_aux": 18,
+    "n_target_kinematic": 9,
+    "n_target_angle": 0
+  },
+  "per_feature": {
+    "Shoulder_intrinsic_roll_vel_dps": {
+      "rmse": 35.296856458829076,
+      "mae": 21.442341056343572,
+      "r2": 0.640936356742761,
+      "nrmse": 0.5992191946668924,
+      "corr": 0.8009639219006978,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Shoulder_intrinsic_roll_acc_dps2": {
+      "rmse": 953.4704721062454,
+      "mae": 406.43974695481734,
+      "r2": 0.035040158708852465,
+      "nrmse": 0.9823236947621429,
+      "corr": 0.2080015885291074,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Shoulder_intrinsic_pitch_vel_dps": {
+      "rmse": 26.41746121049049,
+      "mae": 15.825788785655586,
+      "r2": 0.6017245641308447,
+      "nrmse": 0.6310906716702087,
+      "corr": 0.779154109790872,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Shoulder_intrinsic_pitch_acc_dps2": {
+      "rmse": 587.0297355194023,
+      "mae": 200.83874777242943,
+      "r2": 0.045595146696451816,
+      "nrmse": 0.9769364632889632,
+      "corr": 0.21539954686804239,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Shoulder_intrinsic_yaw_vel_dps": {
+      "rmse": 28.005065391326315,
+      "mae": 16.64802022167818,
+      "r2": 0.7290420192091669,
+      "nrmse": 0.5205362434939886,
+      "corr": 0.8543896679085085,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Shoulder_intrinsic_yaw_acc_dps2": {
+      "rmse": 809.5363263748602,
+      "mae": 253.25940460455453,
+      "r2": 0.04399955555297019,
+      "nrmse": 0.9777527522063181,
+      "corr": 0.22105601805063993,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Elbow_intrinsic_roll_vel_dps": {
+      "rmse": 92.53470535899835,
+      "mae": 35.4822834740798,
+      "r2": 0.085382253610512,
+      "nrmse": 0.956356495450043,
+      "corr": 0.29289897684348554,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Elbow_intrinsic_roll_acc_dps2": {
+      "rmse": 5892.358676890902,
+      "mae": 724.3614610095985,
+      "r2": 0.0007490171258225375,
+      "nrmse": 0.9996254212824808,
+      "corr": 0.02844964900706068,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Elbow_intrinsic_pitch_vel_dps": {
+      "rmse": 40.510964073260475,
+      "mae": 24.64723132803385,
+      "r2": 0.23234384457708934,
+      "nrmse": 0.876159891471249,
+      "corr": 0.48244237412771923,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Elbow_intrinsic_pitch_acc_dps2": {
+      "rmse": 1083.1867555345232,
+      "mae": 394.2669089407408,
+      "r2": 0.009697342436472578,
+      "nrmse": 0.9951395166324808,
+      "corr": 0.09879950474648483,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Elbow_intrinsic_yaw_vel_dps": {
+      "rmse": 93.93245207698948,
+      "mae": 40.680319911196385,
+      "r2": 0.3151455053546194,
+      "nrmse": 0.8275593601944096,
+      "corr": 0.5630315737529373,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Elbow_intrinsic_yaw_acc_dps2": {
+      "rmse": 5982.4700492062075,
+      "mae": 572.4725891456864,
+      "r2": 0.0007318643003778602,
+      "nrmse": 0.9996340008721303,
+      "corr": 0.029280445899595067,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Wrist_intrinsic_roll_vel_dps": {
+      "rmse": 100.40401896803054,
+      "mae": 53.02851692267283,
+      "r2": 0.10080408395933993,
+      "nrmse": 0.9482594138950902,
+      "corr": 0.31845487901961445,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Wrist_intrinsic_roll_acc_dps2": {
+      "rmse": 2630.3157932860236,
+      "mae": 1078.9645334878928,
+      "r2": 0.0025384354547310917,
+      "nrmse": 0.9987299757918899,
+      "corr": 0.06186308365594604,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Wrist_intrinsic_pitch_vel_dps": {
+      "rmse": 74.58346596003703,
+      "mae": 41.2578586245006,
+      "r2": 0.08142311915135592,
+      "nrmse": 0.9584241654135417,
+      "corr": 0.29012287590162655,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Wrist_intrinsic_pitch_acc_dps2": {
+      "rmse": 1361.073657758795,
+      "mae": 649.4427441292802,
+      "r2": 0.006298198024636159,
+      "nrmse": 0.996845926899119,
+      "corr": 0.08803862073851096,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Wrist_intrinsic_yaw_vel_dps": {
+      "rmse": 83.72384511627938,
+      "mae": 43.12854311352276,
+      "r2": 0.35215081362895684,
+      "nrmse": 0.8048907915804748,
+      "corr": 0.593620359088355,
+      "kind": "kinematic",
+      "unit": "dps",
+      "is_target": true
+    },
+    "Wrist_intrinsic_yaw_acc_dps2": {
+      "rmse": 2550.5315649964396,
+      "mae": 802.7897216422053,
+      "r2": 0.013032043160520423,
+      "nrmse": 0.9934626096836657,
+      "corr": 0.11493100682389938,
+      "kind": "kinematic",
+      "unit": "dps^2",
+      "is_target": false
+    },
+    "Shoulder_intrinsic_roll_deg": {
+      "rmse": 49.10241181868669,
+      "mae": 36.5847500388645,
+      "cos_sim": 0.7076077002167128,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Shoulder_intrinsic_pitch_deg": {
+      "rmse": 24.683164753957335,
+      "mae": 19.42171158053118,
+      "cos_sim": 0.9115809512044251,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Shoulder_intrinsic_yaw_deg": {
+      "rmse": 37.2308167254519,
+      "mae": 27.797651689914158,
+      "cos_sim": 0.8104000644224225,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Elbow_intrinsic_roll_deg": {
+      "rmse": 35.580960209624045,
+      "mae": 22.71636210826191,
+      "cos_sim": 0.8533005759977728,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Elbow_intrinsic_pitch_deg": {
+      "rmse": 24.405049884773906,
+      "mae": 18.346190077456345,
+      "cos_sim": 0.9140340270598536,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Elbow_intrinsic_yaw_deg": {
+      "rmse": 46.04458191234985,
+      "mae": 36.944353676424285,
+      "cos_sim": 0.7355180549333324,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Wrist_intrinsic_roll_deg": {
+      "rmse": 40.03280930369298,
+      "mae": 31.007485896209083,
+      "cos_sim": 0.7870550742548997,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Wrist_intrinsic_pitch_deg": {
+      "rmse": 21.15225339883995,
+      "mae": 15.372064719335027,
+      "cos_sim": 0.9350554603544898,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    },
+    "Wrist_intrinsic_yaw_deg": {
+      "rmse": 26.017948080755183,
+      "mae": 17.47040539021921,
+      "cos_sim": 0.9068558188978325,
+      "kind": "angle",
+      "unit": "deg",
+      "is_target": false
+    }
+  }
+}

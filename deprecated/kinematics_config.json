@@ -1,0 +1,25 @@
+{
+  "state": {
+    "Shoulder": {
+      "parent": null,
+      "pos": [0.0, 0.0, 0.0],
+      "ang": [-90.0, 0.0, -90.0]
+    },
+    "Elbow": {
+      "parent": "Shoulder",
+      "pos": [0.0, 0.0, -30.0],
+      "ang": [-90.0, 0.0, -90.0]
+    },
+    "Wrist": {
+      "parent": "Elbow",
+      "pos": [0.0, 0.0, -55.0],
+      "ang": [-90.0, 0.0, -90.0]
+    }
+  },
+  "endpoints": {
+    "Fingertip": {
+      "parent": "Wrist",
+      "pos": [0.0, 0.0, -65.0]
+    }
+  }
+}
