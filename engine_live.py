@@ -1,5 +1,5 @@
 """
-kinematics_engine_live.py
+kinematics_engine_live.py small test
 =========================
 Hardware producer + live PyVista viewer. CALIBRATED (tare) mode only.
 
